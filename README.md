@@ -10,7 +10,7 @@ pip install -r requirements
 
 ### Usage
 ```
-$ python3 main.py
+$ python3 src/main.py
 Feed me a word: <YOUR WORD HERE>
 ```
 
