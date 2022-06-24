@@ -5,7 +5,7 @@ Get the anagrams in Spanish of any word.
 
 ### Requirements
 ```
-pip install -r requirements
+pip install -r requirements.txt
 ```
 
 ### Usage
