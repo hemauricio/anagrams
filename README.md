@@ -25,10 +25,16 @@ You'll see a progress message saying how many permutations have been assessed.
 Permutations assessed so far: m
 ```
 
-In case of a match, a tuple will be printed with the following format.
+In case of a match, a json will be printed with the following format.
 
 ```
-(<PERMUTED WORD>, <LIST OF MEANINGS>)
+{
+  '_permutation_number': <PERMUTATION NUMBER>,
+  'permutation': <PERMUTATION>,
+  'keyword_rae': <RAE's KEYWORD>,
+  'definitions': <LIST OF DEFINITIONS>,
+  'link': <DIRECT LINK TO DEFINITION>
+}
 ```
 
 Once it finishes, an ending message will be displayed.
@@ -39,3 +45,7 @@ N permutations reviewed in total.
 Please be mindful of the complexity of the algorithm.
 
 #### NOTE: The Spanish Royal Academy's dictionary (RAE) is used for this.
+
+Note to future self: This can be improved, as multiple instances of any letter will
+generate *n* repeated permutations with *n* being the number of duplicate letters
+in the word.
