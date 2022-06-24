@@ -5,4 +5,4 @@ def main(word):
 
 if __name__ == '__main__':
     word = input('Feed me a word: ')
-    main(word)
+    main(word.lower())
