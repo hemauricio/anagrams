@@ -79,4 +79,4 @@ def anagrams(word):
         sys.stdout.write((' ' * characters_to_clean) + '\r')
         sys.stdout.flush()
 
-        print(json.dumps(meaning, indent=2))
+        print(json.dumps(meaning, indent=2, ensure_ascii=False))
